@@ -17,3 +17,13 @@
 
 * Relative to a simple random approach, this method is better as it is both cost-effective and highly reliable. If you do not want to use tools like ChainlinkVRF, this method will help you.
 * Modified on Sunday, October 29, 2023
+---
+<h2>4. 💳 <a href="./Contracts/Crowdfunding.sol">Crowdfunding</a> </h2>
+
+* This contract has the capability for you to attract capital through crowdfunding and accept any desired token as the base token.
+* Modified on Wednesday, November 01, 2023
+---
+<h2>5. 💞 <a href="./Contracts/Lovers_Q&A.sol">Lovers Q&A</a> </h2>
+
+* Ask a question and simultaneously send the question and its answer in secret and hashed form to the contract. Now it's your partner's turn to respond to your question. This contract has the capability for you to pose any number of questions within it, and your partner can respond to those questions. Whenever a question concludes (whether your partner answered it correctly or incorrectly), you can ask the next question.
+* Modified on Wednesday, November 01, 2023
