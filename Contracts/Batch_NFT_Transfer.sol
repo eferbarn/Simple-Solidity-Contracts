@@ -1,14 +1,13 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract NFTBatchTransfer is Ownable {
-    // Address of the ERC-721 NFT contract
     IERC721 public nftContract;
 
-    constructor(address _nftContractAddress) {
+    constructor(address _nftContractAddress, address _initialOwner) Ownable(_initialOwner) {
         nftContract = IERC721(_nftContractAddress);
     }
 

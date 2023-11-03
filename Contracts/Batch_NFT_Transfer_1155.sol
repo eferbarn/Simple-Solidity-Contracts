@@ -1,15 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract ERC1155BatchTransfer is Ownable {
-    // Address of the ERC-1155 token contract
-    IERC1155 public erc1155Contract;
+contract NFTBatchTransfer is Ownable {
+    IERC1155 public nftContract;
 
-    constructor(address _erc1155ContractAddress) {
-        erc1155Contract = IERC1155(_erc1155ContractAddress);
+    constructor(address _nftContractAddress, address _initialOwner) Ownable(_initialOwner) {
+        nftContract = IERC1155(_nftContractAddress);
     }
 
     function batchSafeTransferFrom(
@@ -27,7 +26,7 @@ contract ERC1155BatchTransfer is Ownable {
             address to = toAddresses[i];
             uint256 tokenId = tokenIds[i];
             uint256 amount = amounts[i];
-            erc1155Contract.safeTransferFrom(msg.sender, to, tokenId, amount, data);
+            nftContract.safeTransferFrom(msg.sender, to, tokenId, amount, data);
         }
     }
 }
