@@ -27,3 +27,8 @@
 
 * Ask a question and simultaneously send the question and its answer in secret and hashed form to the contract. Now it's your partner's turn to respond to your question. This contract has the capability for you to pose any number of questions within it, and your partner can respond to those questions. Whenever a question concludes (whether your partner answered it correctly or incorrectly), you can ask the next question.
 * Modified on Wednesday, November 01, 2023
+---
+<h2>6. 💞 <a href="./Contracts/Batch_NFT_Transfer.sol">Batch NFT Transfer (safeTransferFrom)</a> </h2>
+
+* Want to send lots of NFTs but got confused? No worries! Just deploy this contract and pass the NFT contract address through the constructor!
+* Modified on Wednesday, November 03, 2023
