@@ -32,3 +32,8 @@
 
 * Want to send lots of NFTs but got confused? No worries! Just deploy this contract and pass the NFT contract address through the constructor!
 * Modified on Wednesday, November 03, 2023
+---
+<h2>7. 💠 <a href="./Contracts/Batch_NFT_Transfer_1155.sol">Batch NFT Transfer - 1155 Version</a> </h2>
+
+* Everything is as the same as `6. Batch NFT Transfer`, but for ERC1155 standard!
+* Modified on Wednesday, November 03, 2023
