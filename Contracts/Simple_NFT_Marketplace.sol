@@ -117,7 +117,7 @@ contract NFTMarketplace {
         );
         require(
             msg.sender == listing.seller,
-            "Only the seller can remove the listing
+            "Only the seller can remove the listing"
         );
         delete listings[_listingIndex];
     }
