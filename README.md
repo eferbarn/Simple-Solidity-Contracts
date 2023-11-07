@@ -1,7 +1,8 @@
 # Simple Solidity Contracts
 <h2>You can find some handy examples of Solidity contracts here!</h2>
 🔮 I hope they will be inspirational! 
-<br>
+
+⚠️ Disclaimer: Please use these contracts with caution! Always DYOR!
 <br>
 <h2>1. 🗳 <a href="./Contracts/Proposals_And_Voting.sol">Proposals And Voting</a> </h2>
 
