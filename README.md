@@ -49,10 +49,17 @@ Then you can show off your eternal gallery to the world.
 ---
 <h2>9. 🎨 <a href="./Contracts/Simple_NFT_Marketplace.sol">Simple NFT Marketplace</a> </h2>
 
-* A simple marketplace to list, buy, and sell NFTs (Available for both ERC721 and ERC1155)
+* A simple marketplace to list, buy, and sell NFTs (Available for both `ERC721` and `ERC1155`)
 * Modified on Tuesday, November 07, 2023
 ---
 <h2>10. 🖼 <a href="./Contracts/Simple_NFT_Marketplace.sol">Pro NFT Marketplace</a> </h2>
 
-* A pro-evaluated version of [`Simple NFT Marketplace`](./Contracts/Simple_NFT_Marketplace.sol), which supports `Multiple Payment Token`, `Artists royalties`, `Marketplace Royalties`, etc.
+* A pro-evaluated version of the [Simple NFT Marketplace](./Contracts/Simple_NFT_Marketplace.sol), which supports `Multiple Payment Token`, `Artists royalties`, `Marketplace Royalties`, etc.
+* Modified on Tuesday, November 07, 2023
+---
+<h2>11. 🖼 <a href="./Contracts/Distributor.sol">Distributor</a> </h2>
+
+* This distributor can distribute gas (ether) or specific ERC20 tokens.
+  * After deploying, provide receiving addresses and corresponding shares to the `distribute` function!
+  * Can be deployed on all EVM-based networks.
 * Modified on Tuesday, November 07, 2023
