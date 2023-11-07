@@ -33,7 +33,10 @@ contract EternalArtGallery {
     }
 
     function createArtwork(
-        string memory _title, string memory _description, string memory _imageURL, uint256 _price
+        string memory _title, 
+        string memory _description, 
+        string memory _imageURL, 
+        uint256 _price
     ) public {
         require(_price > 0, "Artwork price must be greater than 0");
         Artwork memory newArtwork = Artwork(
