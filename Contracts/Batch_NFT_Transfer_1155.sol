@@ -17,16 +17,28 @@ contract NFTBatchTransfer is Ownable {
         uint256[] memory amounts,
         bytes memory data
     ) public onlyOwner {
+        // Logical Double-Checks
         require(
             toAddresses.length == tokenIds.length && tokenIds.length == amounts.length,
             "Input arrays must have the same length"
+        );
+        // Check if the contract is approved to transfer
+        // the token from the owner's address
+        require(
+            nftContract.isApprovedForAll(msg.sender, address(this)), 
+            "Contract not approved to transfer NFT"
         );
 
         for (uint256 i = 0; i < toAddresses.length; i++) {
             address to = toAddresses[i];
             uint256 tokenId = tokenIds[i];
             uint256 amount = amounts[i];
-            nftContract.safeTransferFrom(msg.sender, to, tokenId, amount, data);
+            nftContract.safeTransferFrom(
+                msg.sender, 
+                to, tokenId, 
+                amount, 
+                data
+            );
         }
     }
 }
