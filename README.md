@@ -63,3 +63,8 @@ Then you can show off your eternal gallery to the world.
   * After deploying, provide receiving addresses and corresponding shares to the `distribute` function!
   * Can be deployed on all EVM-based networks.
 * Modified on Tuesday, November 07, 2023
+---
+<h2>12. ䷺ <a href="./Contracts/Distributor.sol">Distributor</a> </h2>
+
+* Deploy the famous disperse app on every EVM-based network you want!
+* Modified on Tuesday, Thursday 09, 2023
