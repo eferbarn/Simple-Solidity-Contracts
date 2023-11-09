@@ -32,12 +32,12 @@
 <h2>6. 🚛 <a href="./Contracts/Batch_NFT_Transfer.sol">Batch NFT Transfer (safeTransferFrom)</a> </h2>
 
 * Want to send lots of NFTs but got confused? No worries! Just deploy this contract and pass the NFT contract address through the constructor!
-* Modified on Friday, November 03, 2023
+* Modified on Thursday, November 09, 2023
 ---
 <h2>7. 💠 <a href="./Contracts/Batch_NFT_Transfer_1155.sol">Batch NFT Transfer - 1155 Version</a> </h2>
 
 * Everything is as the same as `6. Batch NFT Transfer`, but for ERC1155 standard!
-* Modified on Friday, November 03, 2023
+* Modified on Thursday, November 09, 2023
 ---
 <h2>8. 🧑‍🎨 <a href="./Contracts/Eternal_Art_Gallery.sol">Eternal Art Gallery</a> </h2>
 
