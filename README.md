@@ -64,7 +64,7 @@ Then you can show off your eternal gallery to the world.
   * Can be deployed on all EVM-based networks.
 * Modified on Tuesday, November 07, 2023
 ---
-<h2>12. ䷺ <a href="./Contracts/Distributor.sol">Distributor</a> </h2>
+<h2>12. ䷺ <a href="./Contracts/Disperse.sol">Disperse App</a> </h2>
 
 * Deploy the famous disperse app on every EVM-based network you want!
 * Modified on Tuesday, Thursday 09, 2023
